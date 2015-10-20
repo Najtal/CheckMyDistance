@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.checkmydistance"
+    android:versionCode="2"
+    android:versionName="0.5.4" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <permission
+        android:name="com.checkmydistance.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.javapapers.currentlocationinmap.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_5"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- ACTIVITIES -->
+
+        <activity
+            android:name="com.checkmydistance.Home_Activity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.checkmydistance.PositionCUD_Activity"
+            android:label="@string/title_activity_add_"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.checkmydistance.ListPositions_Activity"
+            android:label="@string/title_activity_list_activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.checkmydistance.About_Activity"
+            android:label="@string/title_activity_about_"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.checkmydistance.TabPosChooser_info"
+            android:label="Pos1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.checkmydistance.TabPosChooser_list"
+            android:label="Pos2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.checkmydistance.TabPosChooser_Activity"
+            android:label="@string/TabPosChooser_Activity_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.checkmydistance.AlarmSetup_Activity"
+            android:label="@string/title_activity_alarm_setup_"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.checkmydistance.Alarm_Activity"
+            android:label="@string/title_activity_alarm_"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.checkmydistance.MapsActivity"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <!-- SERVICES -->
+       <service android:name="services.PositionAlarmService"></service>
+
+        <!-- META DATA -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyC47YBdvRxcBgrNUTKlwHom7CvPvOgoci0" />
+
+    </application>
+
+</manifest>

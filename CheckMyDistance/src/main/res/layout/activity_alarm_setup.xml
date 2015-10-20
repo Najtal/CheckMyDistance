@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:background="@color/default_background_color" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/default_background_color"
+        android:text="Alarm radius ? (in meters)"
+        android:textColor="@color/default_text_color"
+        android:textSize="22sp"
+		android:paddingTop="10dp">
+    </TextView>
+    
+    <EditText
+        android:id="@+id/alarm_et_radius"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColor="@color/default_text_color"
+        android:paddingBottom="20dp" />
+
+	<ListView
+		android:id="@+id/aas_list"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+	</ListView>
+	
+	
+</LinearLayout>

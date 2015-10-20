@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Default background color. -->
+    <color name="default_background_color">#1D3849</color> <!-- #1F2933 #1E2832 #212F38 -->
+    <color name="default_background_color_dark">#0F1A20</color> <!-- #141b22 -->
+    <color name="map_color">#81DAF5</color>
+    
+   	<!-- Default separation line color. -->
+    <color name="default_separation_line_color">#1A282F</color>
+    
+    <!-- CIRCLE COLORS -->
+    <color name="circle_alarm_background">#0F1A20</color>
+    <color name="circle_progress">#FF9900</color>
+    <color name="circle_alarm_limit">#24431f</color>
+    <color name="circle_wrong_way">#FF4000</color>
+   
+    
+    <!-- Default main title color. -->
+    <!-- <color name="default_main_title_color">#8BDBE5</color> -->
+    <color name="default_main_title_color">#CC5E10</color>
+
+    <!-- Default default sections color. -->
+    <color name="default_section_color">#B3BEC4</color>
+    
+    <!-- Default text color. -->
+    <color name="default_text_color">#ABBBC8</color>
+    <color name="main_title_shadow">#813A1A</color>
+    <color name="position_info_colo">#78AB46</color>
+    
+    <!-- GENERIC COLORS -->
+    <color name="black">#000000</color>
+    
+    
+</resources>

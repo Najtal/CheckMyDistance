@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- General -->
+    <string name="app_name">Check my distance</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Common textes -->
+    <string name="longitude">Longitude</string>
+    <string name="Latitude">Latitude </string>
+
+    <!-- Home activity texts -->
+    <string name="actHome_setGps">Set the GPS</string>
+    <string name="actHome_addPosition">Add a new position</string>
+    <string name="actHome_listPositions">My positions</string>
+    <string name="actHome_newAlarm">Set a new alarm</string>
+    <string name="actHome_dist2pos">Distance between positions</string>
+    <string name="title_activity_add_">Add a new position</string>
+    <string name="home_setNewAlarm">Set a new alarm</string>
+    <string name="home_resumeAlarm">Resume to alarm</string>
+
+    <!-- CUD activity texts -->
+    <string name="actAdd_title">Add a new position</string>
+    <string name="actAdd_actualPosition">Add your actual position</string>
+    <string name="actAdd_newPosition">Add a different position</string>
+    <string name="actAdd_newPosition_OnMap">Find position on map</string>
+    <string name="add_bt_findOnMap">Open map</string>
+    <string name="actAdd_title_activity_edit_">Edit your position</string>
+    <string name="actAdd_newName">what is the name of this place</string>
+    <string name="actAdd_btfav">Make it a favorite</string>
+    <string name="actAdd_btSave">Save</string>
+    <string name="actAdd_btDelete">Delete</string>
+    <string name="actAdd_btCancel">Back to menu</string>
+    <string name="actAdd_rbNorth">North</string>
+    <string name="actAdd_rbSouth">South</string>
+    <string name="actAdd_rbEast">East</string>
+    <string name="actAdd_rbWest">West</string>
+
+    <!-- Select two positions -->
+    <string name="select_pos_select">Select positions</string>
+    <string name="select_pos_info">get info</string>
+
+    <!-- Alarm -->
+    <string name="title_activity_about_">About</string>
+    <string name="actAlarm_stopAlarm">Stop the alarm</string>
+    <string name="actAlarm_back">Back to menu</string>
+    <string name="alarm_DestinationPosition">Your destination position</string>
+    <string name="alarm_LastPosition">Your last known position</string>
+    <string name="alarm_Rayon">The alarm radius</string>
+    <string name="alarm_DistanceAlarm">Distance to alarm</string>
+    <string name="alarm_DistanceDest">Distance to destination</string>
+    <string name="alarm_main_title">Alarm</string>
+    <string name="alarm_graph_title">Graph</string>
+
+    <!-- About -->
+    <string name="about_title">About Check my distance v0.5.4</string>
+    <string name="about_content"></string>
+    <string name="about_sig">This program has been developed by Jean-Vital Durieu and William Leemans in late 2015 for University of Lille1</string>
+
+    <!-- Settings -->
+    <string name="actSettings_title">Settings</string>
+    <string name="actSettings_rb_meter">meter</string>
+    <string name="actSettings_rb_miles">miles</string>
+    <string name="actSetting_switch_eco_mode_title">Eco mode</string>
+
+    <!-- Others -->
+    <string name="title_activity_list_activity">My positions</string>
+    <string name="service_alarm_name">Distance alarm</string>
+    <string name="toastMsgAddSomePossitions">Tip : You should first add some positions.</string>
+    
+    <!-- Menu -->
+    <string name="menu_About">About</string>
+    <string name="menu_Settings">Settings</string>
+    <string name="title_activity_settings_">Settings_Activity</string>
+    <string name="title_activity_list_position_chooser">List Position Chooser</string>
+    <string name="TabPosChooser_Activity_title">MainActivity</string>
+    <string name="title_activity_alarm_setup_">AlarmSetup_Activity</string>
+    <string name="title_activity_alarm_">Alarm_Activity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_map_add_">Add position on map</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

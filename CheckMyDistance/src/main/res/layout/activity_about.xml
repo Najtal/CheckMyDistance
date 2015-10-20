@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_background_color"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".About_Activity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/about_title"
+            android:textColor="@color/default_text_color" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Check my distance is a Android application who provides a real time location tracker and alarm.\n\nThe main features are :\n- save / edit positions\n- launch alarm\n- finding distance between two positions\n\nSave positions:\n\t\tyour current location\n\t\tenter the coordonates\n\t\tfind on map\n\t\tsaving is at favorite\n\t\tregister by name\n\nAlarms\n\t\tdefine by a position and a radius. When you enter the radius distance, you'll get a notification\n\nDistance between two positions\n\t\tThis feature allow you to easily find the distance that separate various positions."
+            android:textColor="@color/default_text_color" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/about_sig"
+            android:textColor="@color/default_text_color" />
+    </LinearLayout>
+
+</RelativeLayout>
